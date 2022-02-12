@@ -18,7 +18,7 @@ function showOutput() {
   let link = document.createElement('a')
   link.classList.add('btn2')
   // link.classList.add('buttons')
-  link.href = "body=https://mywa.link/haropis/message&subject=Mywa"
+  link.href = "wa.link/aj76er"
   link.textContent = "Tell me"
   displayBtn.appendChild(link)
 }
