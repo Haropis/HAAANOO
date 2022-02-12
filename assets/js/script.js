@@ -9,29 +9,30 @@ noBtn.addEventListener("click", showNoOutput)
 
 function showOutput() {
   let p = document.createElement('p')
-  p.classList.add('h1')
-  p.textContent = 'Thanks Boss for giving me the job'
+  p.classList.add('h11')
+  p.textContent = 'Thanks for accepting'
   displayReply.innerHTML = ''
   displayReply.appendChild(p)
 
   displayBtn.innerHTML = ''
   let link = document.createElement('a')
-  link.classList.add('btn')
-  link.href = "https://www.google.com"
+  link.classList.add('btn2')
+  // link.classList.add('buttons')
+  link.href = "https://mywa.link/haropis"
   link.textContent = "Tell me"
   displayBtn.appendChild(link)
 }
 
 function showNoOutput() {
   let p = document.createElement('p')
-  p.classList.add('h1')
-  p.textContent = 'Boss, Please na'
+  p.classList.add('h21')
+  p.textContent = 'If I hit your head, go back and click YES joor'
   displayReply.innerHTML = ''
   displayReply.appendChild(p)
 
   displayBtn.innerHTML = ''
   let link = document.createElement('button')
-  link.classList.add('btn')
+  link.classList.add('btn3')
   link.addEventListener('click', reloadPage)
   link.textContent = "Go back and Click"
   displayBtn.appendChild(link)

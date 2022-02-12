@@ -58,9 +58,9 @@
 
 .h3 {
   font-family: Satisfy;
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-align: center;
-  line-height: 7rem;
+  line-height: 8rem;
   font-weight: 500;
   z-index: 10;
   background: linear-gradient(
@@ -145,6 +145,37 @@
   /* opacity: 50%; */
 }
 
+.btn2 {
+  width: 7rem;
+  height: 3rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  /* position: absolute; */
+  /* margin: 5rem 0rem 0rem 20rem; */
+  margin: 3rem 2rem;
+  background: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  transition: 0.4s ease-in-out;
+  text-decoration: none;
+}
+
+.btn3 {
+  width: 15rem;
+  height: 6rem;
+  border-radius: 3rem;
+  outline: none;
+  border: none;
+  /* position: absolute; */
+  /* margin: 5rem 0rem 0rem 20rem; */
+  margin: 3rem 2rem;
+  background: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  transition: 0.4s ease-in-out;
+  text-decoration: none;
+}
 
 /* .h3 text{ */
 /* background-image: linear-gradient( red, green, yellow); */
@@ -188,4 +219,25 @@
   height: 100vh;
   object-fit:fill;
   z-index: -10;
+  }
+
+  .h11 {
+    font-family: Caveat;
+    font-size: 3rem;
+    overflow: none;
+    text-align: center;
+    line-height: 5rem;
+    font-weight: 300;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+  }
+
+  .h21 {
+    font-family: Caveat;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 4rem;
+    font-weight: 300;
+    z-index: 10;
+    color: rgb(182, 166, 19);
   }
