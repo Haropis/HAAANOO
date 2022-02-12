@@ -130,7 +130,7 @@
 }
 
 .btn1:hover {
-  background-image: linear-gradient(
+  background: linear-gradient(
     to right,
     rgb(241, 241, 71),
     rgb(78, 248, 78),
