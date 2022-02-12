@@ -14,8 +14,9 @@
   font-family: Dancing script;
   font-size: 6rem;
   text-align: center;
-  line-height: 5rem;
-  padding-top: 70px;
+  line-height: 8rem;
+  /* padding-top: 20px; */
+  /* padding: 0 0 10 0; */
   /* font-weight: 200; */
   z-index: 10;
   color: blueviolet;
@@ -49,7 +50,7 @@
   font-family: Caveat;
   font-size: 5rem;
   text-align: center;
-  line-height: 8rem;
+  line-height: 4rem;
   font-weight: 300;
   z-index: 10;
   color: rgb(255, 255, 255);
@@ -90,13 +91,15 @@
   /* position: absolute; */
   /* margin: 5rem 0rem 0rem 34rem; */
   margin: 0 2rem;
+  background: #fff;
   text-align: center;
   font-size: 1.6rem;
   transition: 0.4s ease-in-out;
+  text-decoration: none;
 }
 
 .btn:hover {
-  background-image: linear-gradient(
+  background: linear-gradient(
     to right,
     rgb(241, 241, 71),
     rgb(78, 248, 78),
@@ -119,9 +122,11 @@
   /* position: absolute; */
   /* margin: 5rem 0rem 0rem 34rem; */
   margin: 0 2rem;
+  background: #fff;
   text-align: center;
   font-size: 1.6rem;
   transition: 0.4s ease-in-out;
+  text-decoration: none;
 }
 
 .btn1:hover {
@@ -162,7 +167,7 @@
   align-items: center;
   background: #111;
   color: #fff;
-  z-index: 2;
+  z-index: -2;
 }
 
 .showcase video {
