@@ -92,6 +92,7 @@
   margin: 0 2rem;
   text-align: center;
   font-size: 1.6rem;
+  transition: 0.4s ease-in-out;
 }
 
 .btn:hover {
@@ -120,7 +121,9 @@
   margin: 0 2rem;
   text-align: center;
   font-size: 1.6rem;
+  transition: 0.4s ease-in-out;
 }
+
 .btn1:hover {
   background-image: linear-gradient(
     to right,
